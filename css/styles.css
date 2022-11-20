@@ -7,8 +7,19 @@ h1 {
   font-family: 'Kalam', cursive;
 }
 
-/* Navitagion */
+/* Navigation */
 
 .navbar {
   background-color: #D6CDA4;
+}
+
+/* Nuestros perros */
+
+.img_intro {
+  width: 50%;
+}
+
+.button_intro {
+  width: 50%;
+  
 }
