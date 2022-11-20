@@ -1,0 +1,14 @@
+body {
+  background-color: #C8DBBE;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+}
+
+/* Navitagion */
+
+.navbar {
+  background-color: #D6CDA4;
+}
