@@ -1,25 +1,184 @@
 body {
-  background-color: #C8DBBE;
+  /* background-color: #C8DBBE;*/
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
   font-family: 'Kalam', cursive;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #F5E8C7;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+p {
+  text-align: center;
 }
 
 /* Navigation */
 
 .navbar {
-  background-color: #D6CDA4;
+  background-color: #285430;
+}
+
+.vr {
+  color: white;
+  opacity: 0.7;
+}
+
+.nav-link {
+  color: white;
+  padding-bottom: 0.1rem;
+  margin: 0 0.2rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 0.15rem white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 0.15rem white;
+}
+
+/* Intro */
+
+#intro {
+  background-color: white;
+  padding: 0;
+  position: relative;
+}
+
+.img_intro {
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 50px;
+  color: white;
 }
 
 /* Nuestros perros */
 
-.img_intro {
-  width: 50%;
+#perros {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs5Z-S8XTLipoWfpYXK0J8R9dIADgSu9fUVg&usqp=CAU) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 1rem;
 }
 
-.button_intro {
-  width: 50%;
-  
+.img_perros {
+  height: 250px;
+  width: auto;
+  margin: 1% auto;
+  border-radius: 10%;
+  padding: 5% auto;
+}
+
+.btn_perros {
+  margin: 1% auto;
+  background-color: #C8DBBE;
+  font-size: large;
+}
+
+.img_btn {
+  margin: 5% auto;
+}
+
+/* Eventos */
+
+#eventos {
+  margin: 0.5rem 2rem 0 2rem;
+  padding: 0;
+}
+
+.ev-title {
+  position: relative;
+  margin: 0 8rem 0.5rem;
+  padding: 0 2rem 2rem;
+  top: 1rem;
+  z-index: 1;
+  background-color: white;
+}
+
+.ev-div {
+  position: relative;
+  border: solid 0.2rem black;
+  padding: 4rem 0 1rem 3rem;
+  bottom: 2.5rem;
+}
+
+/* Contacto */
+
+#contacto {
+  background-color: #C8DBBE;
+  padding: 0.1rem 0 3rem;
+}
+
+form {
+  margin: auto;
+}
+
+.form_area {
+  max-width: 290px;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #C8DBBE;
+  margin-bottom: 0;
+}
+
+/* MEDIA QUERIES */
+
+/*h1*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/*h2*/
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 3rem;
+  }
 }
